@@ -1,9 +1,10 @@
 ---
 controller_templates:
-  - name: 02 Example Job Template (Hello World)
+  - name: "02-{{ tenant_name }}-example-job-template"
+    organization: "{{ tenant_name }}"
     description: Prints Hello World
     job_type: run
-    inventory: 02 Example Inventory
-    project: 02 Example Project
+    inventory: "02-{{ tenant_name }}-example-inventory"
+    project: "02-{{ tenant_name }}-example-project"
     playbook: playbooks/hello-world.yaml
     verbosity: 2

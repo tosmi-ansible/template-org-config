@@ -1,5 +1,3 @@
 ---
-tenant_name: "REPLACE_ME"
 aap_hostname: "aap.apps.hub.aws.tntinfra.net"
 aap_validate_certs: false
-aap_token: "REPLACE_ME"
