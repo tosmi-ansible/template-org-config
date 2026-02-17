@@ -17,3 +17,5 @@ controller_templates:
     playbook: playbooks/ping.yaml
     ask_limit_on_launch: true
     verbosity: 2
+    credentials:
+      - "00-{{ tenant_name }}-dev-env-ssh-key"
