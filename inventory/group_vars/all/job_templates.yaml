@@ -8,7 +8,7 @@ controller_templates:
     project: "00-{{ tenant_name }}-example-project"
     playbook: playbooks/hello-world.yaml
     verbosity: 2
-  - name: "00-tenant3-ping"
+  - name: "00-{{ tenant_name }}-ping"
     organization: "{{ tenant_name }}"
     description: Ping hosts
     job_type: run
